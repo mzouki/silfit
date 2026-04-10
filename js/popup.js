@@ -9,8 +9,8 @@
   // ── Configuration ───────────────────────────────────────
   const CONFIG = {
     whatsappNumber: '5511986531708',
-    // Substitua pelo URL do seu Apps Script publicado como Web App
-    appsScriptUrl: 'https://script.google.com/macros/s/PASTE_YOUR_DEPLOYMENT_ID_HERE/exec',
+    // Apps Script publicado como Web App (Sílvia Leads)
+    appsScriptUrl: 'https://script.google.com/macros/s/AKfycbx4osMhM2BvJSQLNb9IDEGnMJkSxUIpcj4nMh_52I7D8Jf2dhhB9rTPzzdxaTChRq_u/exec',
     // Templates de mensagem por tipo de origem
     messages: {
       geral: 'Oi Sílvia! Meu nome é {nome}. Quero saber mais sobre as marmitas SilFit! 🍱',
