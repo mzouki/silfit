@@ -27,4 +27,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://silfit.pages.dev/sitemap.xml
+Sitemap: https://silfit.mzkmidia.workers.dev/sitemap.xml

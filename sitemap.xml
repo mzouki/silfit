@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
-    <loc>https://silfit.pages.dev/</loc>
+    <loc>https://silfit.mzkmidia.workers.dev/</loc>
     <lastmod>2026-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://silfit.pages.dev/img/og-image.jpg</image:loc>
+      <image:loc>https://silfit.mzkmidia.workers.dev/img/og-image.jpg</image:loc>
       <image:title>SilFit — Marmita Fit e Tradicional em Santo André</image:title>
       <image:caption>Marmitas caseiras com entrega no ABCD Paulista</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://silfit.pages.dev/politica-de-privacidade.html</loc>
+    <loc>https://silfit.mzkmidia.workers.dev/politica-de-privacidade.html</loc>
     <lastmod>2026-04-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
