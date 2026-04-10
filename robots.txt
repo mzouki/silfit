@@ -27,4 +27,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://silfit.mzkmidia.workers.dev/sitemap.xml
+Sitemap: https://silfitmarmitas.com.br/sitemap.xml
