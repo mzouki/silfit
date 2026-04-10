@@ -60,6 +60,9 @@
   };
 
   // Send lead to Apps Script (fire and forget — never blocks redirect)
+  // IMPORTANT: Apps Script web apps require text/plain content-type when called
+  // from a browser with no-cors mode (the only Content-Type allowed without preflight).
+  // The Apps Script doPost still receives the JSON string in e.postData.contents.
   const sendLead = async (data) => {
     if (!CONFIG.appsScriptUrl || CONFIG.appsScriptUrl.includes('PASTE_YOUR')) {
       console.warn('[SilFit] Apps Script URL not configured. Lead not sent.');
@@ -68,8 +71,8 @@
     try {
       await fetch(CONFIG.appsScriptUrl, {
         method: 'POST',
-        mode: 'no-cors', // Apps Script web apps need this for cross-origin
-        headers: { 'Content-Type': 'application/json' },
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
         body: JSON.stringify(data),
       });
     } catch (err) {
