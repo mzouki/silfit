@@ -1,0 +1,27 @@
+{
+  "name": "SilFit — Marmitas Fit e Tradicional",
+  "short_name": "SilFit",
+  "description": "Marmitas fit e tradicionais caseiras com entrega no ABCD Paulista",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#2D5016",
+  "orientation": "portrait-primary",
+  "lang": "pt-BR",
+  "categories": ["food", "lifestyle", "health"],
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
