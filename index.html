@@ -52,8 +52,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet"></noscript>
 
-  <!-- Stylesheets -->
-  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Critical CSS (above-the-fold: reset + header + hero + variables) -->
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--cream:#FAF7F2;--cream-warm:#F4EFE6;--cream-deep:#ECE4D4;--sage-light:#A8B89A;--sage:#6B8E5A;--sage-deep:#2D5016;--terracotta:#A84B30;--terracotta-deep:#8B3A20;--gold:#B8893E;--espresso:#2A1F1A;--espresso-soft:#3D3428;--muted:#6B5F52;--line:#E5DCC8;--white:#FFFFFF;--wa-green:#25D366;--font-display:'Playfair Display SC',Georgia,serif;--font-display-italic:'Playfair Display',Georgia,serif;--font-body:'Karla',-apple-system,BlinkMacSystemFont,sans-serif;--ease-out:cubic-bezier(0.22,1,0.36,1);--radius:14px;--radius-lg:24px;--z-header:50;--z-fab:90;--z-popup:100}
+    html{scroll-behavior:smooth;-webkit-font-smoothing:antialiased;text-size-adjust:100%}
+    body{font-family:var(--font-body);color:var(--espresso);background:var(--cream);line-height:1.65;font-size:17px;overflow-x:hidden}
+    img{max-width:100%;height:auto;display:block}button{font:inherit;cursor:pointer}a{color:inherit;text-decoration:none}
+    .container{width:100%;max-width:1200px;margin:0 auto;padding:0 24px;position:relative;z-index:2}
+    .skip-link{position:absolute;left:-9999px;top:16px;background:var(--sage-deep);color:var(--cream);padding:12px 20px;border-radius:8px;z-index:999;font-weight:600}.skip-link:focus{left:16px}
+    .top-bar{background:var(--sage-deep);color:var(--cream);text-align:center;font-size:.78rem;padding:9px 16px;font-weight:500;letter-spacing:.02em}.top-bar strong{color:var(--gold);font-weight:700}
+    .header{position:sticky;top:0;z-index:var(--z-header);background:rgba(250,247,242,0.92);backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);border-bottom:1px solid transparent;transition:all 350ms var(--ease-out)}.header.scrolled{border-bottom-color:var(--line);box-shadow:0 4px 24px rgba(42,31,26,0.06)}.header .container{display:flex;align-items:center;justify-content:space-between;padding-top:18px;padding-bottom:18px}
+    .logo{display:flex;align-items:center;gap:8px;font-family:var(--font-display);font-size:1.6rem;color:var(--sage-deep)}.logo-mark{width:36px;height:36px;border-radius:50%;background:var(--sage-deep);display:flex;align-items:center;justify-content:center;color:var(--cream);font-family:var(--font-display);font-size:1.05rem}.logo-text em{font-family:var(--font-display-italic);font-style:italic;color:var(--terracotta)}
+    .nav{display:flex;gap:36px;align-items:center}.nav a{font-size:.9rem;font-weight:500;color:var(--espresso-soft);position:relative;transition:color 200ms var(--ease-out)}
+    .header-cta{background:var(--sage-deep);color:var(--cream);padding:11px 22px;border-radius:999px;font-size:.85rem;font-weight:600;transition:all 250ms var(--ease-out);display:inline-flex;align-items:center;gap:7px}
+    .icon{width:18px;height:18px;flex-shrink:0}
+    @media(max-width:900px){.nav{display:none}}
+    @media(max-width:480px){.header-cta span{display:none}.header-cta{padding:11px;aspect-ratio:1;justify-content:center}}
+    .hero{position:relative;padding:70px 0 90px;background:linear-gradient(180deg,var(--cream) 0%,var(--cream-warm) 100%);overflow:hidden}.hero .container{display:grid;grid-template-columns:1.05fr 0.95fr;gap:70px;align-items:center;position:relative;z-index:2}
+    .hero-badge{display:inline-flex;align-items:center;gap:10px;background:var(--cream-deep);border:1px solid var(--line);padding:9px 18px;border-radius:999px;font-size:.78rem;font-weight:600;color:var(--sage-deep);margin-bottom:24px}
+    .hero h1{font-family:var(--font-display);font-size:clamp(2.6rem,6vw,4.4rem);line-height:1.02;margin-bottom:22px;letter-spacing:-.02em;font-weight:400;color:var(--espresso)}.hero h1 em{font-family:var(--font-display-italic);font-style:italic;color:var(--sage-deep);font-weight:400}.hero h1 .accent{color:var(--terracotta);font-family:var(--font-display-italic);font-style:italic}
+    .hero-sub{font-size:1.18rem;color:var(--espresso-soft);line-height:1.7;margin-bottom:32px;max-width:520px}
+    .hero-ctas{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:40px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:16px 32px;border-radius:999px;font-weight:700;font-size:.95rem;border:none;cursor:pointer;transition:all 280ms var(--ease-out);white-space:nowrap;text-decoration:none;position:relative;overflow:hidden}
+    .btn-primary{background:var(--sage-deep);color:var(--cream);box-shadow:0 4px 16px rgba(45,80,22,0.18)}.btn-primary:hover{background:#1f3a0e;transform:translateY(-2px);box-shadow:0 8px 28px rgba(45,80,22,0.32)}
+    .btn-secondary{background:transparent;color:var(--espresso);border:1.5px solid var(--espresso)}.btn-secondary:hover{background:var(--espresso);color:var(--cream)}
+    .btn-large{padding:20px 40px;font-size:1.05rem}
+    .hero-trust{display:flex;align-items:center;gap:24px;flex-wrap:wrap;padding-top:28px;border-top:1px solid var(--line)}.hero-trust-item{display:flex;align-items:center;gap:10px;font-size:.85rem;color:var(--espresso-soft)}.hero-trust-item svg{color:var(--sage-deep);flex-shrink:0}
+    .hero-visual{position:relative;height:580px}.hero-photo{position:absolute;border-radius:var(--radius-lg);overflow:hidden;background:var(--cream-deep);box-shadow:0 20px 60px rgba(42,31,26,0.18),0 8px 24px rgba(42,31,26,0.10)}.hero-photo img{width:100%;height:100%;object-fit:cover;display:block}.hero-photo-main{top:0;left:50%;transform:translateX(-50%);width:78%;aspect-ratio:4/5;z-index:2}.hero-photo-sub{bottom:0;left:0;width:55%;aspect-ratio:4/3;z-index:3;border:8px solid var(--cream)}.hero-photo-sub-2{top:60px;right:0;width:42%;aspect-ratio:1;z-index:1;border:8px solid var(--cream)}
+    .hero-quote{position:absolute;bottom:90px;right:-20px;z-index:4;background:var(--white);padding:18px 22px;border-radius:var(--radius);box-shadow:0 12px 36px rgba(42,31,26,0.15);max-width:220px;border:1px solid var(--line)}.hero-quote .stars{display:flex;gap:2px;margin-bottom:6px;color:var(--gold)}.hero-quote p{font-family:var(--font-display-italic);font-style:italic;font-size:.92rem;color:var(--espresso);line-height:1.5}.hero-quote cite{display:block;margin-top:8px;font-size:.75rem;color:var(--muted);font-style:normal;font-family:var(--font-body);font-weight:600}
+    .hero-deco-1{position:absolute;top:-100px;right:-120px;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,rgba(168,184,154,0.18) 0%,transparent 70%);pointer-events:none}.hero-deco-2{position:absolute;bottom:-80px;left:-100px;width:380px;height:380px;border-radius:50%;background:radial-gradient(circle,rgba(168,75,48,0.10) 0%,transparent 70%);pointer-events:none}
+    .hero-entry{opacity:0;transform:translateY(24px);animation:hero-rise 900ms var(--ease-out) forwards}.hero-entry-1{animation-delay:.10s}.hero-entry-2{animation-delay:.22s}.hero-entry-3{animation-delay:.34s}.hero-entry-4{animation-delay:.46s}.hero-entry-5{animation-delay:.58s}@keyframes hero-rise{to{opacity:1;transform:none}}
+    @media(max-width:980px){.hero .container{grid-template-columns:1fr;gap:50px}.hero-visual{height:460px;max-width:480px;margin:0 auto}.hero-quote{right:0;bottom:50px}}@media(max-width:480px){.hero{padding:50px 0 70px}.hero-visual{height:380px}}
+    .badge .dot,.hero-badge .dot{width:8px;height:8px;border-radius:50%;background:var(--wa-green);animation:pulse-dot 2.4s ease-in-out infinite}@keyframes pulse-dot{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,0.5)}50%{box-shadow:0 0 0 8px rgba(37,211,102,0)}}
+  </style>
+
+  <!-- Full stylesheet (non-render-blocking) -->
+  <link rel="preload" href="/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="/css/styles.css"></noscript>
 
   <!-- Schema.org JSON-LD: LocalBusiness / FoodEstablishment -->
   <script type="application/ld+json">
