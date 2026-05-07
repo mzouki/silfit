@@ -14,12 +14,20 @@
     // Templates de mensagem por tipo de origem
     messages: {
       geral: 'Oi Sílvia! Meu nome é {nome}. Quero saber mais sobre as marmitas SilFit! 🍱',
-      fit: 'Oi Sílvia! Meu nome é {nome}. Quero fazer um pedido de Marmita Fit! 🍱',
-      tradicional: 'Oi Sílvia! Meu nome é {nome}. Quero fazer um pedido de Marmita Tradicional! 🍱',
-      combo_fit_10: 'Oi Sílvia! Meu nome é {nome}. Quero saber sobre o Combo Fit de 10 marmitas! 🍱',
-      combo_fit_20: 'Oi Sílvia! Meu nome é {nome}. Quero saber sobre o Combo Fit de 20 marmitas! 🍱',
-      combo_trad_10: 'Oi Sílvia! Meu nome é {nome}. Quero saber sobre o Combo Tradicional de 10 marmitas! 🍱',
-      combo_trad_20: 'Oi Sílvia! Meu nome é {nome}. Quero saber sobre o Combo Tradicional de 20 marmitas! 🍱',
+      fit: 'Oi Sílvia! Meu nome é {nome}. Quero fazer um pedido de Marmita Fit (300g)! 🍱',
+      tradicional: 'Oi Sílvia! Meu nome é {nome}. Quero fazer um pedido de Marmita Tradicional (400g)! 🍱',
+      // Combos Tradicional 400g — R$ 264 cada (12 marmitas, mín. 3 de cada)
+      combo_trad_1: 'Oi Sílvia! Meu nome é {nome}. Quero o Combo Tradicional 1 — Sabor e Variedade (12 marmitas · R$ 264). 🍱',
+      combo_trad_2: 'Oi Sílvia! Meu nome é {nome}. Quero o Combo Tradicional 2 — Seleção Premium (12 marmitas · R$ 264). 🍱',
+      combo_trad_3: 'Oi Sílvia! Meu nome é {nome}. Quero o Combo Tradicional 3 — Sabor da Casa (12 marmitas · R$ 264). 🍱',
+      combo_trad_4: 'Oi Sílvia! Meu nome é {nome}. Quero o Combo Tradicional 4 — Especial da Semana (12 marmitas · R$ 264). 🍱',
+      // Combos Fit 300g — R$ 240 cada (12 marmitas, mín. 3 de cada)
+      combo_fit_premium: 'Oi Sílvia! Meu nome é {nome}. Quero o Combo Fit Premium (12 marmitas · R$ 240). 🍱',
+      combo_fit_equilibrio: 'Oi Sílvia! Meu nome é {nome}. Quero o Combo Fit Equilíbrio (12 marmitas · R$ 240). 🍱',
+      combo_fit_caseiro: 'Oi Sílvia! Meu nome é {nome}. Quero o Combo Fit Caseiro (12 marmitas · R$ 240). 🍱',
+      combo_fit_variedades: 'Oi Sílvia! Meu nome é {nome}. Quero o Combo Fit Variedades da Semana (12 marmitas · R$ 240). 🍱',
+      // Personalizado — sem preço fixo, regras flexíveis
+      combo_personalizado: 'Oi Sílvia! Meu nome é {nome}. Gostaria de montar um combo personalizado e consultar valores. 🍱',
     }
   };
 

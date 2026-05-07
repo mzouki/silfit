@@ -1,0 +1,167 @@
+# SilFit — Knowledge Base completa para LLMs
+
+> Versão expandida com todos os pratos, combos, FAQ e regras operacionais. Atualizado em 2026-05-05.
+
+## Sobre a SilFit
+
+SilFit é uma operação caseira de marmitas congeladas tocada pela Sílvia, moradora de Santo André, em São Paulo. A marca nasceu com a proposta de oferecer comida feita em casa, com cuidado de família, para quem não tem tempo de cozinhar todo dia mas quer comer bem — sem fast food, sem ultraprocessado, sem pesar no orçamento. A tagline oficial é "Da minha cozinha pra sua."
+
+Cada combo é preparado sob encomenda com ingredientes frescos comprados na semana e congelado imediatamente após o preparo, preservando sabor e nutrientes. As marmitas são entregues já congeladas — o cliente apenas esquenta no micro-ondas na hora de comer.
+
+## Contato
+
+- WhatsApp principal: (11) 98653-1708 — https://wa.me/5511986531708
+- Instagram: @silfit_marmita — https://www.instagram.com/silfit_marmita/
+- Site: https://silfitmarmitas.com.br/
+- Cidade-base: Santo André / SP / Brasil
+- Coordenadas: -23.6633, -46.5384
+
+## Modelo de operação
+
+- Cozinha caseira (não é restaurante físico)
+- Pedidos sob encomenda via WhatsApp
+- Marmitas congeladas após o preparo
+- Validade de 30 dias mantidas no freezer
+- Cardápio fixo com 4 combos curados em cada categoria (Fit e Tradicional)
+- Pratos especiais ocasionais divulgados no WhatsApp e Instagram
+
+## Cardápio completo
+
+### Marmitas Fit (300g) — pratos disponíveis nos combos
+
+1. **Escondidinho de Frango Cremoso** — Requeijão light, molho de tomate, arroz branco (ou integral sob pedido)
+2. **Escondidinho de Carne** — Carne moída, molho de tomate, arroz branco
+3. **Carne Moída Fit** — Arroz branco (ou integral sob pedido), purê de mandioquinha
+4. **Strogonoff de Frango** — Arroz branco, cenoura refogada
+5. **Penne ao Molho de Frango Desfiado** — Massa penne com molho cremoso de frango desfiado
+6. **Carne Desfiada (Fit)** — Arroz branco, mix de legumes
+7. **Lombo Suíno Desfiado** — Arroz branco, purê de abóbora
+8. **Frango Desfiado Suculento** — Arroz branco, polenta cremosa
+
+### Marmitas Tradicional (400g) — pratos disponíveis nos combos
+
+1. **Picadinho de Carne** — Arroz branco, feijão, cenoura refogada
+2. **Linguine com Almôndegas ao Molho Vermelho** — Massa italiana al dente com almôndegas ao molho de tomate caseiro
+3. **Carne Moída Tradicional** — Arroz branco, purê de mandioquinha
+4. **Sobrecoxa Desossada em Cubos (ao molho)** — Frango desossado em cubos com molho, arroz branco, feijão e mix de legumes
+5. **Tirinha de Frango Acebolada** — Arroz branco, creme de milho
+6. **Fricassê** — Arroz branco, batata palha
+7. **Frango Cremoso Desfiado** — Arroz branco, feijão, creme de milho
+8. **Carne Desfiada Suculenta** — Arroz branco, polenta cremosa
+
+## Combos curados (cardápio fixo)
+
+Todo combo tem **12 marmitas** com **mínimo de 3 unidades de cada prato** dentro do combo.
+
+### Tradicional 400g — R$ 264,00 (R$ 22,00 a marmita)
+
+**Combo 1 · Sabor e Variedade**
+- Carne moída + arroz + purê de mandioquinha
+- Tirinha de frango acebolada + arroz + creme de milho
+- Picadinho de carne + arroz + feijão + cenoura refogada
+- Fricassê + arroz + batata palha
+
+**Combo 2 · Seleção Premium**
+- Frango cremoso desfiado + arroz + feijão + creme de milho
+- Linguine com almôndegas ao molho vermelho
+- Sobrecoxa desossada em cubos + arroz + feijão + mix de legumes
+- Carne desfiada suculenta + arroz + polenta cremosa
+
+**Combo 3 · Sabor da Casa**
+- Tirinha de frango acebolada + arroz + creme de milho
+- Carne moída + arroz + purê de mandioquinha
+- Linguine com almôndegas ao molho vermelho
+- Sobrecoxa desossada em cubos + arroz + feijão + mix de legumes
+
+**Combo 4 · Especial da Semana**
+- Picadinho de carne + arroz + feijão + cenoura refogada
+- Fricassê + arroz + batata palha
+- Carne desfiada suculenta + arroz + polenta cremosa
+- Frango cremoso desfiado + arroz + feijão + creme de milho
+
+### Fit 300g — R$ 240,00 (R$ 20,00 a marmita)
+
+**Fit Premium**
+- Escondidinho de carne + molho de tomate + arroz
+- Carne moída + arroz + purê de mandioquinha
+- Penne ao molho de frango desfiado
+- Strogonoff + arroz + cenoura refogada
+
+**Fit Equilíbrio**
+- Escondidinho de frango cremoso (requeijão light + molho de tomate) + arroz
+- Carne desfiada + arroz + mix de legumes
+- Lombo suíno desfiado + arroz + purê de abóbora
+- Penne ao molho de frango desfiado
+
+**Fit Caseiro**
+- Escondidinho de frango cremoso (requeijão light + molho de tomate) + arroz
+- Carne desfiada + arroz + mix de legumes
+- Carne moída + arroz + purê de mandioquinha
+- Frango desfiado suculento + arroz + polenta cremosa
+
+**Fit Variedades da Semana**
+- Escondidinho de carne + molho de tomate + arroz
+- Strogonoff + arroz + cenoura refogada
+- Lombo suíno desfiado + arroz + purê de abóbora
+- Frango desfiado suculento + arroz + polenta cremosa
+
+### Combo Personalizado
+
+Para combos personalizados (mistura livre de pratos, quantidades e categorias), favor consultar valores. Regras diferentes dos combos curados — sem mínimo fixo de 12 unidades. Solicitação via WhatsApp.
+
+## Retirada e Entrega
+
+### Modalidade principal: Retirada em Santo André
+- Gratuita
+- Endereço informado APÓS confirmação do pedido (não publicado no site por padrão)
+- Horário combinado caso a caso pelo WhatsApp
+
+### Entrega na proximidade
+- Bairros próximos de Santo André
+- Frete consultado caso a caso pelo WhatsApp
+
+### Outras regiões — Uber por conta do cliente
+- Cliente solicita Uber por conta própria pelo aplicativo
+- Uber retira em Santo André no endereço/horário combinados
+
+## Formas de pagamento
+
+- **Pix · 50% + 50%**: 50% no momento do pedido (sinal) e 50% na entrega ou retirada. Sem taxa, modalidade preferencial.
+- **Cartão de débito ou crédito**: pagamento via link enviado pelo WhatsApp (modalidade crédito). Aceita débito e crédito.
+
+Não aceita: Vale Alimentação (no momento), dinheiro físico, boleto.
+
+## Características técnicas das marmitas
+
+- Embalagem: própria pra freezer e micro-ondas
+- Estado de entrega: congelada
+- Validade: 30 dias no congelador
+- Aquecimento recomendado: micro-ondas em potência média (60–70%) por 4 a 6 minutos, com pausa na metade pra mexer e finalizar. Pratos com massa (Linguine, Penne) podem precisar de 1 min a mais.
+- Substituições disponíveis: arroz branco por integral nas marmitas Fit, sob pedido, sem custo
+
+## FAQ resumida
+
+**As marmitas são frescas ou congeladas?** Congeladas. Preparadas com ingredientes frescos e congeladas logo após o preparo.
+
+**Qual a validade?** 30 dias no congelador.
+
+**Como retirar?** Em Santo André. Endereço passado após confirmação do pedido, horário combinado pelo WhatsApp.
+
+**Tem entrega?** Na proximidade de Santo André mediante consulta de frete. Outras regiões: Uber por conta do cliente.
+
+**Quanto custa a entrega?** Retirada em Santo André é gratuita. Proximidade: consultar frete. Outras regiões: cliente custeia Uber.
+
+**Como pago?** Pix 50/50 ou cartão débito/crédito via link.
+
+**Como funciona o combo?** 12 marmitas, mínimo 3 de cada prato. Tradicional R$ 264; Fit R$ 240.
+
+**Posso personalizar?** Sim, regras diferentes dos combos curados. Consultar valores no WhatsApp.
+
+**O cardápio muda?** Cardápio fixo com 4 combos curados em cada categoria. Pratos especiais ocasionais.
+
+**Posso pedir arroz integral?** Sim, nas marmitas Fit, sem custo adicional.
+
+**Como esquentar?** Potência média no micro-ondas, 4-6 minutos, mexer no meio.
+
+## Documentos legais
+- Política de Privacidade: https://silfitmarmitas.com.br/politica-de-privacidade.html
