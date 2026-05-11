@@ -24,3 +24,8 @@ npm-debug.log*
 node_modules/
 dist/
 build/
+
+# Working directories — refs, geração IA e backups locais (não vão pro repo)
+img/_refs/
+img/_gen/
+img/_old/
