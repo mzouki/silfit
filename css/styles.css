@@ -967,6 +967,22 @@ h1, h2, h3, h4 {
 }
 .combo-note strong { color: var(--gold); font-style: normal; font-weight: 600; }
 
+/* Lista de pratos dentro de cada combo-card (fundo escuro translúcido) */
+.combo-items {
+  text-align: left;
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 18px;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: rgba(250, 247, 242, 0.92);
+}
+.combo-items li {
+  padding: 8px 0;
+  border-bottom: 1px dashed rgba(250, 247, 242, 0.18);
+}
+.combo-items li:last-child { border-bottom: none; }
+
 /* ─────────────────────────────────────────────────────────
    Área de Entrega
    ───────────────────────────────────────────────────────── */
